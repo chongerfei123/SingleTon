@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="st.zlei.com.androidsingleton.MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/hungry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="饿汉模式"
+         />
+
+    <Button
+        android:id="@+id/lazy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基本懒汉模式" />
+
+    <Button
+        android:id="@+id/DCL_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DCL单例模式" />
+
+    <Button
+        android:id="@+id/InnerClass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="静态内部类单例模式" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="容器单例模式" />
+</LinearLayout>
